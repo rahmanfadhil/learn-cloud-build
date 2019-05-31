@@ -1,0 +1,13 @@
+{
+  "name": "my-project-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rahman Fadhil <rhmnfadhil@gmail.com> (https://rahmanfadhil.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "rollup": "^1.12.5",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-terser": "^5.0.0"
+  }
+}
