@@ -4,10 +4,18 @@
   "main": "index.js",
   "author": "Rahman Fadhil <rhmnfadhil@gmail.com> (https://rahmanfadhil.com)",
   "license": "MIT",
+  "scripts": {
+    "dev": "babel-node src/index.js",
+    "build": "babel src --out-dir build",
+    "start": "node build/index.js"
+  },
   "dependencies": {
-    "express": "^4.17.1",
-    "rollup": "^1.12.5",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-terser": "^5.0.0"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
   }
 }
