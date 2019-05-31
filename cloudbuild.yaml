@@ -9,4 +9,4 @@ steps:
     args: ["run", "build"]
 
   - name: "gcr.io/cloud-builders/gcloud"
-    args: ["beta", "run", "deploy", "--image", "gcr.io/$PROJECT_ID/helloworld"]
+    args: ["app", "deploy"]
